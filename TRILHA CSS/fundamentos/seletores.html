@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+    <style>
+    [title = "Netflix"] {
+        color: red;
+    }
+    [title="Prime"] {
+        color: lightblue;
+    }
+    [title="Spotify"] {
+        color: greenyellow;
+    }
+
+    /* [attr~=value]*/
+    [title ~= "streming"] {
+        background: red;
+    }
+
+    [href^="http://"] {
+        background: blue;
+        color: white;
+    }
+
+
+    [title|="Disney"] {
+        background: yellow;
+    }
+    [href$="login"] {
+        background: violet;
+    }
+    </style>
+</head>
+<body>
+   <div>
+        <ul>
+            <li><a href="http://netflix.com" title="streming Netflix" href="#">Netflix</a></li>
+             <li><a href="https://www.primevideo.com/login" href="#">Prime Video</a></li>
+             <li><a title="Disney-Spotify" href="#">Spotify</a></li>
+             <li><a title="Disney-xd">Disney+</a></li>
+        </ul>
+   </div>
+</body>
+</html>
