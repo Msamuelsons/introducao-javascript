@@ -1,0 +1,1 @@
+1) Consuma uma api(pública ou não) e utilize alguns recursos para melhor solidez dos seus estudos.
