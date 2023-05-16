@@ -17,9 +17,27 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Vue",
+        "logo": "https://github.com/Msamuelsons/introducao-javascript/blob/master/portfolio/assets/img/icons/vue.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://github.com/Msamuelsons/introducao-javascript/blob/master/portfolio/assets/img/icons/git.png"
+      },
+
+      {
+        "name":"Github",
+        "logo": "https://github.com/Msamuelsons/introducao-javascript/blob/master/portfolio/assets/img/icons/github.png"
+      },
+      {
+        "name":"Python",
+        "logo":"https://github.com/Msamuelsons/introducao-javascript/blob/master/portfolio/assets/img/icons/python.png"
+      },
+      {
+        "name":"Js",
+        "logo":"https://github.com/Msamuelsons/introducao-javascript/blob/master/portfolio/assets/img/icons/js.png"
       }
+      
     ],
     "softSkills": [
       "Empatia",
