@@ -12,9 +12,24 @@ function updateProfileInfo(profileData) {
     const location = document.getElementById('profile.location');
     location.innerText = profileData.location;
 
+    const phone = document.getElementById('profile.phone');
+    phone.innerText = profileData.phone;
+    phone.href=`tel:${profileData.phone}`;
+
+    const mail = document.getElementById('profile.email');
+    mail.innerText = profileData.email;
+    mail.href=`mailto:${profileData.email}`;
+
+}
+
+function updateProfileSoftSkills(profileData) {
+    const softskills = document.getElementById('profile.skills.softSkills');
+    
+   softskills.innerHTML = profileData.skills.softSkills.map((skill) => `<li>${skill}</li>`).join('')
 }
 
 (async function() {
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
+    updateProfileSoftSkills(profileData);
 })();
