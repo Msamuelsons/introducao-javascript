@@ -29,7 +29,7 @@ function updateProfileSoftSkills(profileData) {
 }
 
 function updateProfileHardSkills(profileData) {
-    const hardskills = document.getElementById('profile.skills.softSkills');
+    const hardskills = document.getElementById('profile.skills.hardSkills');
     
    hardskills.innerHTML = profileData.skills.hardSkills.map((skill) => `
     <li>
